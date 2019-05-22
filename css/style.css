@@ -1,0 +1,891 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Hind;
+}
+
+.nav-item-5 {
+    list-style: none;
+}
+
+.navigation li a {
+    display: inline;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+.forsidebillede {
+    width: 100%;
+
+}
+
+/* https://www.w3schools.com/html/html_links.asp */
+
+a:visited {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+/*SEARCH CONTAINER */
+
+/*https://www.w3schools.com/howto/howto_css_searchbar.asp */
+
+.search-container {
+    position: relative;
+}
+
+.search-container form {
+    position: absolute;
+    left: 1%;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+/* SEARCH CONTAINER SLUT*/
+
+/* BUTTON CONTAINER */
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.buttonkobenhavn {
+    font-size: 1.2em;
+    border-radius: 1em;
+    background-image: url('../images/kobenhavn.jpg');
+    width: 50%;
+    height: 200px;
+}
+
+.buttonkobenhavn h3 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttonaarhus {
+    font-size: 1.2em;
+    border-radius: 1em;
+    font-family: Hind;
+    background-image: url('../images/aarhus_.jpg');
+    width: 50%;
+    height: 200px;
+}
+
+.buttonaarhus h3 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttonodense {
+    font-size: 1.2em;
+    border-radius: 1em;
+    font-family: Hind;
+    background-image: url('../images/odense.jpg');
+    width: 50%;
+    height: 200px;
+}
+
+.buttonodense h3 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.buttonandet {
+    font-size: 1.2em;
+    border-radius: 1em;
+    font-family: Hind;
+    background-image: url('../images/andet.jpg');
+    width: 50%;
+    height: 200px;
+}
+
+.buttonandet h3 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttonkobenhavn:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+.buttonaarhus:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+.buttonodense:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+.buttonandet:hover {
+    background: orange;
+    cursor: pointer;
+}
+
+/* BUTTON CONTAINER SULT */
+
+/* HURTIG ADGANG TIL LEJEBOLIGER */
+
+.buttonContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    width: 100%;
+    height: auto;
+}
+
+.tekstogbillede {
+    width: 100%;
+}
+
+.buttonlejlighedoverst {
+    padding: 1%;
+    font-size: 1.1em;
+    width: 50%;
+    margin-left: 4%;
+    text-align: left;
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.buttonlejlighednederst {
+    padding: 1%;
+    font-size: 1.1em;
+    width: 50%;
+    margin-left: 4%;
+    text-align: left;
+    color: #333333;
+    background-color: white;
+    margin-top: 1%;
+}
+
+.buttonaarhusbillede {
+    padding: 5em;
+    padding-top: 3em;
+    padding-bottom: 7.5em;
+    width: 40%;
+    background-image: url('../images/aarhus.png');
+}
+
+.buttonhaderslevbillede {
+    padding: 5em;
+    padding-top: 3em;
+    padding-bottom: 7.5em;
+    width: 40%;
+    background-image: url('../images/haderslev.png');
+}
+
+.buttonodensebillede {
+    padding: 5em;
+    padding-top: 3em;
+    padding-bottom: 7.5em;
+    width: 40%;
+    background-image: url('../images/odense.png');
+}
+
+.buttonfredericiabillede {
+    padding: 5em;
+    padding-top: 3em;
+    padding-bottom: 7.5em;
+    width: 40%;
+    background-image: url('../images/fredericia.png');
+}
+
+
+.nyesteboliger {
+    text-align: center;
+    color: #333333;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.graabaggrund {
+    background-color: #E6E6E6;
+    padding-bottom: 1%;
+
+}
+
+
+
+
+/* HURTIG ADGANG TIL LEJEBOLIGER SLUT */
+
+/*FOOTER*/
+
+footer {
+    color: #ffffff;
+    padding: 1em;
+    background: #333333;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCompanyInfo {
+    line-height: 0.5em;
+    font-family: Hind;
+}
+
+.footerLink {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.links > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Hind;
+}
+
+.links > a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.m-r-2 {
+    margin-right: 2em;
+}
+
+/*FOOTER SLUT*/
+
+/* MOBIL */
+
+@media only screen and (max-width:767px) {
+
+    /* HEADER -START- */
+    #desktop {
+        display: none !important;
+    }
+
+    .logo {
+        width: 50%;
+        margin-top: 5%
+    }
+    
+    
+
+    /* MOBILE "BURGER" MENU -START- */
+    #mobile-menu {
+        display: inline-block;
+        position: fixed;
+        z-index: 1;
+        margin-left: 80%;
+        margin-top: 6%;
+    }
+
+    /* "BURGER" BUTTON */
+    #mobile-menu input {
+        display: inline;
+        width: 36px;
+        height: 30px;
+        position: fixed;
+        opacity: 0;
+        z-index: 2;
+        margin-left: -0.4%;
+        margin-top: -2%;
+    }
+
+    #mobile-menu span {
+        display: inline;
+        float: right;
+        clear: right;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        background-color: darkorange;
+        border-radius: 5px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.3s ease-out,
+        background 0.3s ease-out,
+        opacity 0.3s ease-out;
+    }
+
+    #mobile-menu input:checked ~ span:nth-child(2) {
+        transform: rotate(45deg) translate(2px, 0px);
+    }
+
+    #mobile-menu input:checked ~ span:nth-child(3) {
+        opacity: 0;
+    }
+
+    #mobile-menu input:checked ~ span:nth-child(4) {
+        transform: rotate(-45deg) translate(-2px, 0px);
+    }
+
+    /* OFF SCREEN MENU */
+    #navigation-mobile {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin-top: -7%;
+        margin-left: -80%;
+        background-color: whitesmoke;
+        list-style-type: none;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-out;
+        z-index: -1;
+    }
+
+    #navigation-mobile li {
+        padding: 1%;
+        text-align: center;
+        margin-right: 13%;
+        margin-top: 21%;
+    }
+
+    #navigation-mobile li a {
+        text-decoration: none;
+        font-family: 'Hind';
+        font-size: 1.5em;
+        color: darkorange;
+    }
+
+    .nav-item-1 {
+        margin-top: 45%;
+    }
+
+    .nav-item-3 {
+        margin-bottom: 2%;
+    }
+
+    #mobile-menu input:checked ~ ul {
+        transform: none;
+    }
+    /* MOBILE "BURGER" MENU -END- */
+    /* HEADER -END- */
+    
+   
+    .flereboliger {
+        display: none;
+    }    
+    
+.diy-slideshow{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+}
+
+figure.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+}
+.next, .prev{
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 50%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+.next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+    .boligoverskrift {
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: -30px;
+        font-size: 19px;
+        
+    
+    }   
+    /* SEARCH */
+    .search-container {
+        position: relative;
+    }
+
+    .search-container form {
+        position: absolute;
+        left: 1%;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+    }
+
+    .search-container button {
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        background-color: darkorange;
+    }
+
+    .search-container button:hover {
+        background: #ccc;
+    }
+
+    .visflere {
+        text-align: center;
+        font-size: 1.1em;
+        border-radius: 1.1em;
+        background-color: orange;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 35%;
+    }
+
+    .boligtekst { 
+        width: 100%;
+        padding:10px;
+    }
+    .boligtekstp { 
+        width: 100%;
+        padding:10px;
+    }
+    
+    .boligtekst2 {
+        display: none;
+    }    
+
+.kontaktudlejer {
+    text-align: center;
+    font-size: 1em;
+    border-radius: 1.1em;
+    background-color: orange;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    margin-left: 36%;
+}
+    
+    .kontaktudlejer2 {
+        display: none;
+    }
+    
+    .boligbesked {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .divider {
+        background: #333;
+        height: 0.2em;
+        width: 80%;
+        display: inline-block;
+        flex: 1;
+        margin: 0.6em 0.5em 0 0.5em;
+    }
+    
+}
+
+/* TABLET & DESKTOP */
+
+@media only screen and (min-width:768px) {
+
+    /* HEADER */
+    #mobile {
+        display: none ;
+    }
+
+
+    .logo {
+        width: 20%;
+        margin-left: -2%;
+    }
+
+    #desktop {
+        display: block;
+    }
+
+
+    .navigation {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation li {
+        display: inline;
+        list-style-type: none;
+        float: right;
+        margin-top: 1.2%;
+        padding-top: 0.1%;
+        padding-bottom: 0.5%;
+        padding-right: 2%;
+        padding-left: 2%;
+
+    }
+
+    .nav-item-1 {
+        margin-right: 3%;
+        clear: right;
+    }
+    /* HEADER SLUT*/
+    
+      .boligoverskrift {
+        text-align: left;
+        margin-top: -10px;
+        margin-left: 3%;
+        margin-bottom: -30px;
+        font-size: 25px;
+        margin-left: 2%;
+    }    
+    
+    .divider {
+        background: #333;
+        height: 0.2em;
+        width: 80%;
+        display: inline-block;
+        flex: 1;
+        margin: 0.6em 0.5em 0 0.5em;
+    }
+    
+    
+    
+    /* SEARCH CONTAINER */
+    .search-container form {
+
+
+        top: 40%;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 25px;
+        border: none;
+    }
+
+    .search-container button {
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 25px;
+        border: none;
+        cursor: pointer;
+        background-color: darkorange;
+    }
+
+    .search-container button:hover {
+        background: #ccc;
+    }
+
+    /* SEARCH CONTAINER SLUT*/
+    
+    
+    
+    /* SLIDESHOW STARTER */ 
+    /* https://codepen.io/leemark/pen/DLgbr */ 
+    
+    .diy-slideshow{
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 50%;
+  float: right;
+  margin-right: 3%;
+        margin-top: -1%;
+        
+}
+    
+figure{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+}
+
+figure.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+}
+    
+.next, .prev{
+  color: #fff;
+  position: absolute;
+  background: rgba(0,0,0, .6);
+  top: 50%;
+  z-index: 1;
+  font-size: 2em;
+  margin-top: -.75em;
+  opacity: .3;
+  user-select: none;
+}
+    
+.next:hover, .prev:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+    
+    #diy-slideshow2 {
+        display: none;
+    }    
+    
+.next{
+  right: 0;
+  padding: 10px 5px 15px 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+    
+.prev{
+  left: 0;
+  padding: 10px 10px 15px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* SLIDESHOW SLUTTER */     
+    
+    
+    .boligtekst { 
+        display:none;
+    }
+    
+    .boligtekst2 {
+        float:left;
+        width: 30%;
+        padding:10px;
+        margin-right: 3%;
+        margin-top: 2%;
+        margin-left: 1%;
+    }
+    
+    .boligtekstp { 
+        width: 40%;
+        padding-left: 1%;
+        padding-top: 32%;
+        text-align: justify;
+     
+    }
+    
+    .kontaktudlejer {
+        display: none;
+    }
+    
+    .kontaktudlejer2 {
+        text-align: center;
+    font-size: 1.5em;
+    border-radius: 1.2em;
+    background-color: orange;
+        float: right;
+        margin-right: 38%;
+        margin-top: -8%;
+    }
+    
+    
+    .boligbesked {
+        width: 30%;
+        padding-bottom: 3%;
+        margin-left: 64%;
+        margin-top: -41%;
+    }
+    
+    .flereboliger {
+        width: 100%;
+        padding: 1%;
+    }
+    
+    /* BUTTON CONTAINER */
+    .buttonContainer {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em;
+        width: 100%;
+        height: auto;
+    }
+
+    .buttonkobenhavn {
+        width: 20%;
+    }
+
+    .buttonkobenhavn h3 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .buttonaarhus {
+        width: 20%;
+    }
+
+    .buttonodense {
+        width: 20%;
+    }
+
+    .buttonandet {
+        width: 20%;
+    }
+
+    .buttonkobenhavn:hover {
+        background: orange;
+        cursor: pointer;
+    }
+
+    .buttonaarhus:hover {
+        background: orange;
+        cursor: pointer;
+    }
+
+    .buttonodense:hover {
+        background: orange;
+        cursor: pointer;
+    }
+
+    .buttonandet:hover {
+        background: orange;
+        cursor: pointer;
+    }
+
+    /* BUTTON CONTAINER SLUT */
+    /* HURTIG ADGANG TIL LEJEBOLIGER */
+    .buttonlejlighedoverst {
+        padding: 1%;
+        font-size: 1.1em;
+        width: 31%;
+        margin-left: 4%;
+
+    }
+
+    .buttonlejlighednederst {
+        padding: 1%;
+        font-size: 1.1em;
+        width: 31%;
+        margin-left: 4%;
+
+    }
+
+    .buttonaarhusbillede {
+        padding: 5em;
+        padding-top: 3em;
+        padding-bottom: 7.5em;
+        width: 12%;
+
+    }
+
+    .buttonhaderslevbillede {
+        padding: 5em;
+        padding-top: 3em;
+        padding-bottom: 7.5em;
+        width: 12%;
+
+    }
+
+    .buttonodensebillede {
+        padding: 5em;
+        padding-top: 3em;
+        padding-bottom: 7.5em;
+        width: 12%;
+
+    }
+
+    .buttonfredericiabillede {
+        padding: 5em;
+        padding-top: 3em;
+        padding-bottom: 7.5em;
+        width: 12%;
+
+    }
+
+    /* HURTIG ADGANG TIL LEJEBOLIGER SLUT */
+    .visflere {
+        text-align: center;
+        padding: 1%;
+        font-size: 1.1em;
+        font-family: Hind;
+        border-radius: 1.1em;
+        background-color: orange;
+        margin-top: 2%;
+        margin-left: 44%;
+
+    }
+
+
+    /* FOOTER START */
+    /* FOOTER SLUT */
+}
